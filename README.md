@@ -4,22 +4,17 @@ This project was developed for the Udacity Data Analyst Nanodegree in order to p
 topics covered in the Data Wrangling module. 
 
 # Table of Contents
-1. [Provided Data](#data)
+1. [Understanding the project](#understanding)
 2. [Prerequisites to contribute](#requisites)
 3. [How to visualize the study](#visualize)
 4. [License](#license)
 
 
-<a name="data"></a>
-## Provided Data
-Three pieces of data were gathered initially for the development of the project:  
+<a name="understanding"></a>
+## Understanding the project
+First of all, I recommend that you read the report files, especially [wrangle_report.pdf](wrangle_report.pdf), as you will find documentation on the Data Wrangling process in it.
 
-1. **Enhanced Twitter Archive** (given `.csv` file --> [data/twitter-archive-enhanced.csv](data/twitter-archive-enhanced.csv))
-> "The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which I used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, I have filtered for tweets with ratings only (there are 2356)."
-2. **Additional Data via the Twitter API** (gathered using [Tweepy](#https://www.tweepy.org/) --> [data/tweet-json.txt](data/tweet-json.txt))
-> "Back to the basic-ness of Twitter archives: retweet count and favorite count are two of the notable column omissions. Fortunately, this additional data can be gathered by anyone from Twitter's API. Well, "anyone" who has access to data for the 3000 most recent tweets, at least. "
-3. **Image Predictions File** (stored in Udacity servers --> [data/image-predictions.tsv](data/image-predictions.tsv))
->"One more cool thing: I ran every image in the WeRateDogs Twitter archive through a neural network that can classify breeds of dogs. The results: a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images)."
+The [act_report](act_report.pdf) file focus on sharing findings and insights of the study, and while it will help you understand the project, it can be read after the study itself.
 
 <a name="requisites"></a>
 ## Prerequisites to contribute
