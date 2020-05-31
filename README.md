@@ -40,7 +40,7 @@ You can find help to install libraries in Google Colab [here](https://stackoverf
 
 <a name="visualize"></a>
 ## How to visualize the study
-You can just download the this repository and open the `.html` files on your browser.
+You can just download this repository and open the `.html` files on your browser.
 
 <a name="license"></a>
 ## License
